@@ -23,24 +23,16 @@ image: cuba-2.jpg
 **AR Prototype**
 <img src="assets/img/1_Tong/AR.gif">
 
-## Reflection
-
-### Contribution
-We explored the possibility of online socialization education and organized it in a game format.
-### Limitations
-- constraints in implementing features
-    - We thought that the most necessary element for social skills training is *repetitive speaking practice* in a situation similar to real life.
-    - Therefore, we used *voice chat* and matched real users to create a situation similar to a real conversation situation. 
-    - However, upon reflection, it is difficult to match real users, and since it is similar to an anonymous phone call, there are various risk factors such as personal information leakage and personal attacks, so it is not feasible.
-    - If LLM is utilized, it is expected that the AI agent will be able to generate real-time responses according to the topics that the learner wants to talk about as a practice partner.
 
 ## Detail
 
 ### Analysis
 **Problem**
+
 After schools went virtual, we found that lower elementary students were not learning social skills at school as they used to after the transition. An analysis of existing social skills training found that it was insufficient to address the problem, as it was primarily offline and focused on therapy for students with developmental delays.
 
 **Solution**
+
 Therefore, we determined a need to develop an **informal education program** that encourages lower elementary school students to learn social skills online.
 
 ### Design
@@ -66,3 +58,15 @@ Therefore, we determined a need to develop an **informal education program** tha
     - Limits the number of plays to prevent overuse of the game
     - Animal characters' bubbles add a fun element
     - Report function in voice chat roleplay
+
+
+## Reflection
+
+### Contribution
+We explored the possibility of online socialization education and organized it in a game format.
+### Limitations
+- constraints in implementing features
+    - We thought that the most necessary element for social skills training is *repetitive speaking practice* in a situation similar to real life.
+    - Therefore, we used *voice chat* and matched real users to create a situation similar to a real conversation situation. 
+    - However, upon reflection, it is difficult to match real users, and since it is similar to an anonymous phone call, there are various risk factors such as personal information leakage and personal attacks, so it is not feasible.
+    - If LLM is utilized, it is expected that the AI agent will be able to generate real-time responses according to the topics that the learner wants to talk about as a practice partner.
