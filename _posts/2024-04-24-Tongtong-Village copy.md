@@ -29,11 +29,10 @@ image: cuba-2.jpg
 We explored the possibility of online socialization education and organized it in a game format.
 ### Limitations
 - constraints in implementing features
-We thought that the most necessary element for social skills training is repetitive practice and realizing speaking practice in a situation similar to real life. Therefore, we used voice chat and matched real users to create a situation similar to a real conversation situation. 
-However, upon reflection, it is difficult to match real users, and since it is similar to an anonymous phone call, there are various risk factors such as personal information leakage and personal attacks, so it is not feasible.
-
-If LLM is utilized, it is expected that the AI agent will be able to generate real-time responses according to the topics that the learner wants to talk about as a practice partner.
-
+    - We thought that the most necessary element for social skills training is *repetitive speaking practice* in a situation similar to real life.
+    - Therefore, we used *voice chat* and matched real users to create a situation similar to a real conversation situation. 
+    - However, upon reflection, it is difficult to match real users, and since it is similar to an anonymous phone call, there are various risk factors such as personal information leakage and personal attacks, so it is not feasible.
+    - If LLM is utilized, it is expected that the AI agent will be able to generate real-time responses according to the topics that the learner wants to talk about as a practice partner.
 
 ## Detail
 
