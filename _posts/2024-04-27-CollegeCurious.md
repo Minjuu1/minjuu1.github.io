@@ -9,13 +9,16 @@ image: ./5_College/main.png
 
 ## Overview
 **Presentation**
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4L5yYnoKwVM?si=UbCPU9mRED3R_Oqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ![College Curious website](./assets/img/5_College/home.png)
+
 'College Curios' aims to connect students decluttering their dorms and seeking affordable, secondhand items. A portion of the profits will be donated to support the local community, demonstrating a commitment to social responsibility.
 
 
 ![College Curious website](./assets/img/5_College/form.png)
+
 To streamline the buying process and enhance customer experience, we implemented a user-friendly order form and set up an automated email response system.
 
 
