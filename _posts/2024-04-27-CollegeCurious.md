@@ -8,7 +8,6 @@ image: ./5_College/main.png
 ---
 
 ## Overview
-
 **Presentation**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4L5yYnoKwVM?si=UbCPU9mRED3R_Oqa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -28,6 +27,6 @@ To streamline the buying process and enhance customer experience, we implemented
 
 **CS Fair at UVM(University of Vermont)**
 
-![College Curious website](./assets/img/5_College/csfair.png)
+![College Curious website](./assets/img/5_College/csfair.jpeg)
 
 I've gotten a feedback from my professors and mentors that it's creative, that it would be nice to see it actually happen. Although we didn't win the award we had hoped for, it was a meaningful experience as we received positive feedback from people and built strong relationships with friend. Most importantly, the true value of the experience was in having the opportunity to be a part of the lively and energetic fair.
