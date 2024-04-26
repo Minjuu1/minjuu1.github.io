@@ -4,7 +4,7 @@ title: "[Edutech] Tongtong Village"
 author: "Minju Yoo"
 categories: project
 tags: [project]
-image: cuba-2.jpg
+image: ./1_Tong/main.png
 ---
 
 ## Overview
