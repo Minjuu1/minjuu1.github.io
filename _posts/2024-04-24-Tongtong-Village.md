@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tongtong Village, an educational game for social skills for junior elementary school learners"
+title: "[Edutech] Tongtong Village"
 author: "Minju Yoo"
 categories: project
 tags: [project]
@@ -18,7 +18,7 @@ image: cuba-2.jpg
 **Demo Video**
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n_b35oDLMt0?si=Ed1VVYpqbIa4Mq5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**XD Link**: [Adobe XD](https://xd.adobe.com/view/79e76e10-7d5a-479c-8c33-7b00ad1a4691-2cb4/screen/45d80cb9-b31f-42f9-aae7-ba74cf31566c?fullscreen)
+**XD Link**: [Adobe XD](https://xd.adobe.com/view/79e76e10-7d5a-479c-8c33-7b00ad1a4691-2cb4/?fullscreen)
 
 **AR Prototype**
 <img src="assets/img/1_Tong/AR.gif">
