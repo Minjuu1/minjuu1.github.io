@@ -19,15 +19,10 @@ K-12
 ## Demo Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n_b35oDLMt0?si=Ed1VVYpqbIa4Mq5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Prototype**
-
-<a href="https://xd.adobe.com/view/79e76e10-7d5a-479c-8c33-7b00ad1a4691-2cb4/?fullscreen" target="_blank">Adobe XD</a>
+**Prototype** - <a href="https://xd.adobe.com/view/79e76e10-7d5a-479c-8c33-7b00ad1a4691-2cb4/?fullscreen" target="_blank">Adobe XD</a>
 
 **AR Prototype**
-![AR prototype](./assets/img/proj-1/AR.gif)
-
-<!--{% include image.html image="proj-1/AR.gif" %}-->
-<!-- <img src="assets/img/proj-1/AR.gif"> -->
+{% include image.html image="proj-1/AR.gif" %}
 
 
 # Detail
@@ -44,27 +39,31 @@ Therefore, we determined a need to develop an **informal education program** tha
 
 ## Design
 
-1. Design Curriculum of Social skills
+- Curriculum of Social skills
 
 We selected and organized learning contents by referencing existing social skills training materials and papers
 
-2. Design the Game
+- Game structure
 the overall structure of the game
 
-### Develop
+## Develop
 
 **Point 1**
+
 Engaging story with quizzes to help players learn and practice social skills.
 
 {% include image.html image="proj-1/quiz.png" %}
 
 **Point 2**
 Role-play Voice Chat to practice social skills through real-life situations.
-<img src="assets/img/proj-1/voicechat.png">
+
+{% include image.html image="proj-1/voicechat.png" %}
 
 **Point 3**
 Design user experiences for young learners
-<img src="assets/img/proj-1/homepage.png">
+
+{% include image.html image="proj-1/homepage.png" %}
+
 - Use large text, bright colors, and cute characters
 - Increased friendship level with characters when completing a single role play
 - Limits the number of plays to prevent overuse of the game
