@@ -55,7 +55,7 @@ the overall structure of the game
 
 **Point 1**
 Engaging story with quizzes to help players learn and practice social skills.
-<img src="assets/img/proj-1/quiz.png">
+![quiz ui]("https://minjuu1.github.io/assets/img/proj-1/quiz.png")
 
 **Point 2**
 Role-play Voice Chat to practice social skills through real-life situations.
