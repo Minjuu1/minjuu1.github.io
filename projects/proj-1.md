@@ -19,11 +19,14 @@ K-12
 ## Demo Video
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n_b35oDLMt0?si=Ed1VVYpqbIa4Mq5L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Prototype** - ![Adobe XD](https://xd.adobe.com/view/79e76e10-7d5a-479c-8c33-7b00ad1a4691-2cb4/?fullscreen){:target="_blank"}
+**Prototype**
+
+<a href="https://xd.adobe.com/view/79e76e10-7d5a-479c-8c33-7b00ad1a4691-2cb4/?fullscreen" target="_blank">Adobe XD</a>
 
 **AR Prototype**
+![AR prototype](./assets/img/proj-1/AR.gif)
 
-{% include image.html image="proj-1/AR.gif" %}
+<!--{% include image.html image="proj-1/AR.gif" %}-->
 <!-- <img src="assets/img/proj-1/AR.gif"> -->
 
 
