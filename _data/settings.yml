@@ -2,30 +2,30 @@
 # General Site Settings
 
 menu:
-- {name: 'Projects', url: ''}
-- {name: 'Blog',     url: 'blog'}
 - {name: 'About',    url: 'about'}
-- {name: 'Contact',  url: 'contact'}
+- {name: 'Projects', url: ''}
+# - {name: 'Blog',     url: 'blog'}
+- {name: 'CV',  url: 'assets/CV-Minju-Yoo.pdf'}
 
 #-------------------------------
 # Projects Section
 
 projects:
-- {name: 'Project One',   url: 'proj-1'}
-- {name: 'Project Two',   url: 'proj-2'}
-- {name: 'Project Three', url: 'proj-3'}
-- {name: 'Project Four',  url: 'proj-4'}
-- {name: 'Project Five',  url: 'proj-5'}
+- {name: 'TongTong Village\nan educational game for social skills',   url: 'proj-1'}
+- {name: 'Demo-Hi(gh), an election simulation game',   url: 'proj-2'}
+- {name: 'Online Class Training for high school teachers', url: 'proj-3'}
+- {name: 'MetaBooks', the online storywalk library application,  url: 'proj-4'}
+- {name: 'College Curious website',  url: 'proj-5'}
 
 #-------------------------------
 # Contact Section
 
 social:
-- {icon: 'twitter',   link: 'https://twitter.com/paululele'}
-- {icon: 'instagram', link: 'https://instagram.com/paululele'}
-- {icon: 'github',    link: 'https://github.com/lenpaul'}
-- {icon: 'linkedin',  link: 'https://linkedin.com/in/lenpaul'}
-- {icon: 'envelope',  link: 'mailto:mailto:l.nguyen.paul@gmail.com'}
+# - {icon: 'twitter',   link: 'https://twitter.com/paululele'}
+# - {icon: 'instagram', link: 'https://instagram.com/paululele'}
+- {icon: 'github',    link: 'https://github.com/Minjuu1'}
+- {icon: 'linkedin',  link: 'https://linkedin.com/in/minju-yoo-a72a79300/'}
+- {icon: 'envelope',  link: 'mailto:minjuu.yoo@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 
@@ -34,10 +34,10 @@ social:
 
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
-seo:
-  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
-  rel-author: 'https://plus.google.com/u/0/#'
-  rel-publisher: 'https://plus.google.com/u/0/#'
+#seo:
+#  description: 'Personal portfolio powered by Jekyll and GitHub Pages '
+#  rel-author: 'https://plus.google.com/u/0/#'
+#  rel-publisher: 'https://plus.google.com/u/0/#'
 
 #-------------------------------
 # Google Analytics Section
@@ -48,12 +48,12 @@ seo:
 # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-analytics-ua: 'UA-112060364-3'
+# google-analytics-ua: 'UA-112060364-3'
 
 #-------------------------------
 # Disqus Section
 
 # Change to true for Disqus comments
-disqus:
-  comments: false
-  disqus_shortname: ''
+# disqus:
+  #comments: false
+  #disqus_shortname: ''
