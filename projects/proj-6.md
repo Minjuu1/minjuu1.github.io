@@ -23,8 +23,8 @@ When users click on a storywork sign, a recommendation system algorithm is appli
 
 # Prototype
 
-{% include image.html image="proj-6/ui_audio.png" %}
-{% include image.html image="proj-6/ui_tag.png" %}
-{% include image.html image="proj-6/ui_log.png" %}
+| Listen Audiobook | Create Hashtag | Record a BookLog |
+:-------------------------:|:-------------------------:|:-------------------------:
+{% include image.html image="proj-6/ui_audio.png" %}| {% include image.html image="proj-6/ui_tag.png" %} | {% include image.html image="proj-6/ui_log.png" %}
 
 More information is in <a href="https://minjuu1.github.io/assets/img/proj-6/slide-deck.pdf" target="_blank">the slide deck</a>!
