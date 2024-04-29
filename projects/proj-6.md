@@ -3,6 +3,11 @@ layout: post
 title: "[UI Design] MetaBooks"
 ---
 
+# Keywords
+
+![Static Badge](https://img.shields.io/badge/RecommenderSystem-orange)
+![Static Badge](https://img.shields.io/badge/UI-yellow)
+
 # Overview
 'Metabooks' aims to provide a **convenient and enjoyable reading experience** for library users of all ages. It allows them to read books by selecting specific locations marked on a map, making it easy to fit reading into their busy daily lives. Through the use of audiobooks, the app can make a light and comfortable reading environment.
 

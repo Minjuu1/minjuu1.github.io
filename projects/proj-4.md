@@ -3,6 +3,7 @@ layout: post
 title: "[Research] A Study on Predictors of Teaching Presence in Online SW Education"
 ---
 # Keywords
+
 ![Static Badge](https://img.shields.io/badge/QuantitativeResearch-blue)
 ![Static Badge](https://img.shields.io/badge/TeachingPresence-orange)
 

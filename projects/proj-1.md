@@ -4,9 +4,11 @@ title: "[Edutech] TongTong Village"
 ---
 
 # Keywords
->Game-based learning
->Social skill for junior
->K-12
+
+![Static Badge](https://img.shields.io/badge/GameBasedLearning-pink)
+![Static Badge](https://img.shields.io/badge/SocialSkills-orange)
+![Static Badge](https://img.shields.io/badge/RolePlay-yellow)
+
 
 # Overview
 'TongTong Village' is an educational game app that fosters social skills in young elementary school students. This app utilized **two types of role-play missions**. First, children interacted with in-game characters (NPCs) using storytelling games and augmented reality (AR) camera features. Next, they can practice the skills with real friends through voice. This allowed them to practice social skills in diverse scenarios and gain a practical understanding of social skills. 

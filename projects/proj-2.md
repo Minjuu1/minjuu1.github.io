@@ -4,9 +4,11 @@ title: "[Edutech] Demo-Hi(gh)"
 ---
 
 # Keywords
-![Static Badge](https://img.shields.io/badge/PoliticalEducation-orange)
+
 ![Static Badge](https://img.shields.io/badge/GameBasedLearning-pink)
+![Static Badge](https://img.shields.io/badge/PoliticalEducation-orange)
 ![Static Badge](https://img.shields.io/badge/Chatbot-yellow)
+
 # Overview
 'Demo-hi(gh)' is an election simulation game, designed to provide fun and realistic political education for high school students. Each learner goes through five steps that follow the steps of the actual presidential election process. The town has virtual buildings, such as the Election Commission, the Digital Gallery, and the Park, and you enter each building to play the game. A chatbot guides you through the steps, each with a time limit. We've assumed that the class is accessing from their devices simultaneously and that people in the same class are part of the same town and can interact with each other.
 
