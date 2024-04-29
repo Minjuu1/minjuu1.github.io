@@ -11,11 +11,12 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'TongTong Village\nan educational game for social skills',   url: 'proj-1'}
-- {name: 'Demo-Hi(gh), an election simulation game',   url: 'proj-2'}
-- {name: 'Online Class Training for high school teachers', url: 'proj-3'}
-- {name: 'MetaBooks', the online storywalk library application,  url: 'proj-4'}
-- {name: 'College Curious website',  url: 'proj-5'}
+- {name: 'Design an educational game for social skills',   url: 'proj-1'}
+- {name: 'Design an election simulation game',   url: 'proj-2'}
+- {name: 'Design a training program for high school teachers', url: 'proj-3'}
+- {name: 'Survey Research in Educational Technology', url: 'proj-4'}
+- {name: 'Develop a website for thrifting service',  url: 'proj-5'}
+- {name: 'Design an audiobook application',  url: 'proj-6'}
 
 #-------------------------------
 # Contact Section

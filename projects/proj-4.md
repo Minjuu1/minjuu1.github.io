@@ -1,40 +1,21 @@
 ---
 layout: post
-title: "[UI Design] MetaBooks"
-author: "Minju Yoo"
-categories: project
-tags: [project]
-image: ./3_Meta/main.png
+title: "[Research] A Study on Predictors of Teaching Presence in Online SW Education"
 ---
 
-## Overview
-'Metabooks' aims to provide a **convenient and enjoyable reading experience** for library users of all ages. It allows them to read books by selecting specific locations marked on a map, making it easy to fit reading into their busy daily lives. Through the use of audiobooks, the app can make a light and comfortable reading environment.
+# Abstract
 
-## Pipeline
+This study was conducted on 47 students attending "The Foundation of R Programming for Social Problem Solving" class at an university to analyze **how self-determined motivation and task value predict teaching presence in online software education** for non-major students at the university level.
 
-The structure of the online storywork application is as follows:
+{% include image.html image="proj-4/question.png" %}
 
-![prototype_voty](./assets/img/2_FET/voti_1.png)
+The results showed that self-determined motivation did not significantly predict teaching presence, while task value significantly predicted all three sub-factors of teaching presence: "systematic execution of classes", "promotion of communication", and "learning promotion and assessment".
 
-When users click on a storywork signboard that matches their current location, a list of book candidates is generated, ranked, and displayed within the storywork. At this point, a recommendation system algorithm is applied based on user personal information, spatial information, hashtags, and librarian-recommended books.
+{% include image.html image="proj-4/result.png" %}
 
-## Key Function
-
-**Personalized book curation**
-
-We aimed to benchmark the recommendation algorithms of various platforms, particularly focusing on the human-in-the-loop approach that involves collaboration between humans and artificial intelligence, and used this benchmarking to devise our curation ideas.
-
-1. Item-based filtering
-It combines personal information, real-time spatial information, book metadata, and hashtag information.
-2. User-participated curation
-Users can provide curation data by creating hashtags, and they can also send the audiobooks they have read along with messages to others who are walking at the same time.
-3. Librarian-participated curation
-The information curated by librarians, who are book experts, on various topics is utilized.
-
-## Reflection
-
-### Contribution
+These findings demonstrated that task value, a variable related to instructional design, was a predictor of teaching presence, whereas self-determined motivation, a variable related to intrinsic motivation, was not. This suggests that professors' teaching strategies should be considered crucial for successfully leading online software education for non-major students in universities, as teaching presence is relatively more influenced by professors' instructional design than by learners' individual attributes.
 
 
+# Detail
 
-### Limitation
+More information is in the <a href="https://minjuu1.github.io/assets/img/proj-4/thesis.pdf" target="_blank">research paper</a> and the<a href="https://minjuu1.github.io/assets/img/proj-4/slide-deck.pdf" target="_blank">slide deck</a>!
