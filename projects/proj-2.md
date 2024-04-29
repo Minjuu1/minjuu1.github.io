@@ -4,11 +4,11 @@ title: "[Edutech] Demo-Hi(gh)"
 ---
 
 # Keywords
-![Static Badge](https://img.shields.io/badge/Game-Based%20Learning?style=flat-square)
-![Static Badge](https://img.shields.io/badge/Political%20Education?style=flat-square)
-![Static Badge](https://img.shields.io/badge/Chatbot?style=flat-square)
+![Static Badge](https://img.shields.io/badge/PoliticalEducation-orange)
 
+![Static Badge](https://img.shields.io/badge/GameBasedLearning-pink)
 
+![Static Badge](https://img.shields.io/badge/Chatbot-yellow)
 # Overview
 'Demo-hi(gh)' is an election simulation game, designed to provide fun and realistic political education for high school students. Each learner goes through five steps that follow the steps of the actual presidential election process. The town has virtual buildings, such as the Election Commission, the Digital Gallery, and the Park, and you enter each building to play the game. A chatbot guides you through the steps, each with a time limit. We've assumed that the class is accessing from their devices simultaneously and that people in the same class are part of the same town and can interact with each other.
 
@@ -26,18 +26,7 @@ Politicians can create policies by observing various problem situations or creat
 
 
 **When we can use VOTY?**
-1. If the politician can't find a suitable problem situation or doesn't have one in mind
-'Status and Problems' button to get hints about problems that exist in the town.
-
-2. If they have found a suitable problem situation but are struggling to come up with a solution
-> 'Solutions' button to get resources on solutions. 
-The system searches for resources that tell you about the current status of the problem situation and existing policies related to the problem situation. 
-
-3. If you want to get a rough idea of campaign ideas centered on the area you want to make a policy
-> 'Recommended Campaign' button to get recommended policy ideas by field. 
-
-4. If you want to analyze voters' opinions
-> 'Data Analysis' button to get a response based on the text data on the board.
+{% include image.html image="proj-2/functions.png" %}
 
 
 # Reflection
