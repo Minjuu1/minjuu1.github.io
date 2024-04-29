@@ -11,12 +11,12 @@ menu:
 # Projects Section
 
 projects:
-- {name: 'Design an educational game for social skills',   url: 'proj-1'}
-- {name: 'Design an election simulation game',   url: 'proj-2'}
-- {name: 'Design a training program for high school teachers', url: 'proj-3'}
-- {name: 'Survey Research in Educational Technology', url: 'proj-4'}
-- {name: 'Develop a website for thrifting service',  url: 'proj-5'}
-- {name: 'Design an audiobook application',  url: 'proj-6'}
+- {name: '[Edutech] An educational game for social skills',   url: 'proj-1'}
+- {name: '[Edutech] An election simulation game',   url: 'proj-2'}
+- {name: '[Coursework] A training program for high school teachers', url: 'proj-3'}
+- {name: '[Coursework] Survey Research in Educational Technology', url: 'proj-4'}
+- {name: '[Web Development] A website for thrifting service',  url: 'proj-5'}
+- {name: '[UI Design] An audiobook application',  url: 'proj-6'}
 
 #-------------------------------
 # Contact Section
