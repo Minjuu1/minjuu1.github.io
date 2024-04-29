@@ -4,9 +4,9 @@ title: "[Instructional Design] Training program for teachers"
 ---
 
 # Keywords
-ADDIE process
-Teacher training
-Online class
+![Static Badge](https://img.shields.io/badge/ADDIE%20process?style=flat-square)
+![Static Badge](https://img.shields.io/badge/Teacher%20Training?style=flat-square)
+![Static Badge](https://img.shields.io/badge/Analysis?style=flat-square)
 
 
 # Overview
