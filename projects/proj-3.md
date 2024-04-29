@@ -5,9 +5,7 @@ title: "[Instructional Design] Training program for teachers"
 
 # Keywords
 ![Static Badge](https://img.shields.io/badge/ADDIE-blue)
-
 ![Static Badge](https://img.shields.io/badge/TeacherTraining-orange)
-
 ![Static Badge](https://img.shields.io/badge/Analysis-yellow)
 
 
