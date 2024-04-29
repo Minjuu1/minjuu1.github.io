@@ -4,8 +4,9 @@ title: About
 permalink: /about
 ---
 
-# Hello
+# Welcome to my portfolio!
 
-My research interests lie in the captivating fields of Human-Computer Interaction (HCI), Educational Technology (EduTech), and the exciting world of Generative AI.
+I am an undergraduate student who want to be a HCI researcher.
+My research interests lie in the fields of Human-Computer Interaction (HCI), Educational Technology (EduTech), and Generative AI.
 
-I firmly believe in the transformative power of these domains to revolutionize the way we learn, create, and interact with the digital world.
+I believe in the power of these domains to revolutionize the way we learn!
