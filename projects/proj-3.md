@@ -4,11 +4,11 @@ title: "[Instructional Design] Training program for teachers"
 ---
 
 # Keywords
-![Static Badge](https://img.shields.io/badge/ADDIE?style=flat-square)
+![Static Badge](https://img.shields.io/badge/ADDIE-blue)
 
-![Static Badge](https://img.shields.io/badge/Teacher-Training?style=flat-square)
+![Static Badge](https://img.shields.io/badge/TeacherTraining-orange)
 
-![Static Badge](https://img.shields.io/badge/Analysis?style=flat-square)
+![Static Badge](https://img.shields.io/badge/Analysis-yellow)
 
 
 # Overview
