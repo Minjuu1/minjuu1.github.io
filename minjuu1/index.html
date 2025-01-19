@@ -4,43 +4,68 @@
     <meta charset="UTF-8">
     <title>Minju Yoo</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/components/news-table.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="index.html">About</a>
-            <a href="research.html">Research</a>
-            <a href="https://docs.google.com/document/d/1nGMpXadA9uKIwnFAGikUfL7msZqWVyR0tm1P57-OAZ0/edit?usp=sharing">CV</a>
+    <header class="header">
+        <nav class="nav container">
+          <ul class="nav-items">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <!--<li><a href="#projects" class="nav-link">Research</a></li>-->
+            <li><a href="https://docs.google.com/document/d/1nGMpXadA9uKIwnFAGikUfL7msZqWVyR0tm1P57-OAZ0/edit?usp=sharing" class="nav-link">CV</a></li>
+          </ul>
         </nav>
     </header>
 
-    <main>
+    <main class="container">
+        <h2 class="title">Minju Yoo</h2>
         <section id="about">
-            <h2>Minju Yoo</h2>
-            <!-- About content -->
+            <div class="about-text">
+                <div class="description">
+                    <p>I am a senior undergraduate student at <a href="https://www.ewha.ac.kr/ewha/index.do">Ewha Womans University</a>, pursuing a double major in Educational Technology and Software. I am currently working as a undergraduate research intern in <a href="https://kixlab.org">KIXLAB</a>. My research interests lie at the intersection of Human-Computer Interaction (HCI), Educational Technology, and Learning Sciences, with a particular focus on personalized tutoring, teaching augmentation, and interactive learning systems.</p>
+                    <p>My research aims to leverage computing technology to enhance learning experiences, with a specific focus on improving interactions in classroom and collaborative learning(Computer-Supported Collaborative Learning). I am passionate about identifying and solving challenges in educational interactions through innovative technological solutions.</p>
+                </div>
+                <div class="contact-buttons">
+                        <a href="mailto:minjuu.yoo@gmail.com" class="btn">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/minju-yoo-a72a79300/" class="btn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/minjuu1" class="btn">
+                            <i class="fab fa-github"></i>
+                        </a>
+                </div>
+            </div>
+            <img src="profile.png" alt="Profile Image" class="profile-img">
         </section>
 
         <section id="news">
             <h2>News</h2>
-            <div id="news-section"></div>
+            <div id="news-section">
+                <div class="news-item">
+                    <p class="news-date">Jan 2025</p>
+                    <p class="news-desc">🛠 My personal website has been updated!</p>
+                </div>
+            </div>
         </section>
 
-        <section id="Research">
-            <h2>Research</h2>
-            <!-- Education content -->
+        <section id="publication">
+            <h2>Publications</h2>
+            <p>To be appeared...</p>
         </section>
         
         <section id="experience">
             <h2>Experience</h2>
             <!-- Experience content -->
         </section>
-
-        <section id="education">
-            <h2>Education</h2>
-            <!-- Education content -->
-        </section>
     </main>
     <script type="module" src="js/main.js"></script>
 </body>
+
+<footer class="footer">
+    <div class="container">
+        <p>© Copyright 2025 Minju Yoo. Last updated: January 20, 2025.</p>
+    </div>
 </html>
