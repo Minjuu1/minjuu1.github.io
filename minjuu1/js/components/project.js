@@ -1,40 +1,63 @@
-export class ResearchProject {
-    constructor(data) {
-        this.data = data;
+// PaperCard 컴포넌트 클래스
+export class PaperCard {
+    constructor(paper) {
+        this.paper = paper;
     }
 
-    renderAuthors() {
-        return this.data.authors.join(", ");
+    createTitle() {
+        const title = document.createElement('h2');
+        title.textContent = this.paper.title;
+        title.className = 'paper-title';
+        return title;
     }
 
-    renderLinks() {
-        const links = [];
-        if (this.data.links.paper) {
-            links.push(`<a href="${this.data.links.paper}" target="_blank">[Paper]</a>`);
+    createAuthors() {
+        const authors = document.createElement('p');
+        authors.textContent = this.paper.authors.join(', ');
+        authors.className = 'paper-authors';
+        return authors;
+    }
+
+    createConference() {
+        const conference = document.createElement('p');
+        conference.textContent = this.paper.conference;
+        conference.className = 'paper-conference';
+        return conference;
+    }
+
+    createLink(url, text) {
+        const link = document.createElement('a');
+        link.href = url;
+        link.textContent = text;
+        link.target = '_blank';
+        return link;
+    }
+
+    createLinks() {
+        const links = document.createElement('div');
+        links.className = 'paper-links';
+
+        if (this.paper.links.website) {
+            links.appendChild(this.createLink(this.paper.links.website, 'Website'));
         }
-        if (this.data.links.website) {
-            links.push(`<a href="${this.data.links.website}" target="_blank">[website]</a>`);
+
+        if (this.paper.links.arxiv) {
+            links.appendChild(this.createLink(this.paper.links.arxiv, 'arXiv'));
         }
-        return links.join(" ");
+
+        return links;
     }
 
     render() {
-        return `
-            <article class="project-card" id="project-${this.data.id}">
-                <div class="project-image">
-                    <img src="${this.data.image}" alt="${this.data.title}">
-                </div>
-                <div class="project-content">
-                    <h3 class="project-title">${this.data.title}</h3>
-                    <p class="project-authors">${this.renderAuthors()}</p>
-                    <p class="project-type">${this.data.type}</p>
-                    <p class="project-conference">${this.data.conference}</p>
-                    <p class="project-description">${this.data.description}</p>
-                    <div class="project-links">
-                        ${this.renderLinks()}
-                    </div>
-                </div>
-            </article>
-        `;
+        const card = document.createElement('div');
+        card.className = 'paper-card';
+
+        card.appendChild(this.createTitle());
+        card.appendChild(this.createAuthors());
+        card.appendChild(this.createConference());
+        card.appendChild(this.createType());
+        card.appendChild(this.createLinks());
+
+        return card;
     }
 }
