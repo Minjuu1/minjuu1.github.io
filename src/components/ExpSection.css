@@ -1,0 +1,99 @@
+/* Experience Section Styles */
+.exp-section {
+  padding: 2rem 0;
+}
+
+.exp-section .section-space {
+  margin-bottom: 2rem;
+}
+
+.exp-section .section-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #111827;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.exp-section .grid-container {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.experience-card, .education-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.experience-card:last-child, .education-card:last-child {
+  border-bottom: none;
+}
+
+.card-content {
+  flex: 1;
+  padding-right: 1rem;
+}
+
+.card-title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.card-details {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-top: 0.25rem;
+}
+
+.advisor-section, .mentor-section {
+  margin-bottom: 0.25rem;
+}
+
+.advisor-label, .mentor-label {
+  font-weight: 500;
+  color: #1f2937;
+  margin-right: 0.25rem;
+}
+
+.person-link {
+  color: #4b5563;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.person-link:hover {
+  color: #2563eb;
+}
+
+.person-name {
+  color: #4b5563;
+}
+
+.card-sidebar {
+  width: 10rem;
+  text-align: right;
+  font-size: 0.875rem;
+  color: #6b7280;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.location-info, .period-info {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.gpa-info {
+  color: #6b7280;
+}

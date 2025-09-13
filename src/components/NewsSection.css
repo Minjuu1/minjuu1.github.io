@@ -1,0 +1,78 @@
+/* News Section Styles */
+.news-section {
+  padding: 2rem 0;
+}
+
+.news-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: #111827;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.news-container {
+  max-height: 10rem;
+  overflow-y: auto;
+}
+
+.news-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.news-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.news-container::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 3px;
+}
+
+.news-container::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.news-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.news-item:last-child {
+  border-bottom: none;
+}
+
+.news-date {
+  font-size: 0.875rem;
+  color: #6b7280;
+  min-width: 90px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+
+.news-content {
+  color: #374151;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.news-content a {
+  color: #2563eb;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.news-content a:hover {
+  color: #1d4ed8;
+}
