@@ -2,7 +2,7 @@ export const ConfPublications = [
   {
     id: 'teachtune',
     title: 'TeachTune: Reviewing Pedagogical Agents Against Diverse Student Profiles with Simulated Students',
-    authors: ['hyeongwook', 'minju', 'jeongoen', 'Yokyung Lee', 'xu', 'juho'],
+    authors: ['hyoungwook', 'minju', 'jeongeon', 'Yokyung Lee', 'xu', 'juho'],
     year: 2025,
     venue: 'CHI',
     urls: {
@@ -17,7 +17,7 @@ export const WorkPublications = [
   {
     id: 'teachcraft',
     title: 'How Do Teachers Create Pedagogical Chatbots?: Current Practices and Challenges',
-    authors: ['minju', 'hyeongwook', 'juho'],
+    authors: ['minju', 'hyoungwook', 'juho'],
     year: 2025,
     note: 'CHI 2025 Workshop: Augmented Educators and AI',
     urls: {
