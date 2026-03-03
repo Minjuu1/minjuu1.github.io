@@ -1,16 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ConfPublications, WorkPublications } from '../data/publication';
 import { People } from '../data/people';
 import { FileText, Github, Globe, ExternalLink } from 'lucide-react';
 import './PubSection.css';
 
 const PubCard = ({ pub }) => {
+  const [src, setSrc] = useState(`/images/teaser-${pub.id}.png`);
+
+  const handleError = () => {
+    if (src === `/images/teaser-${pub.id}.png`) {
+      setSrc(`/images/teaser-${pub.id}.jpg`);
+    } else {
+      setSrc('/images/teaser-default.png');
+    }
+  };
+
   return (
     <article className="pub-card">
       <div className="pub-image">
         <img
-          src={`/images/teaser-${pub.id}.png`}
+          src={src}
           alt="teaser image of publication"
+          onError={handleError}
         />
       </div>
 
