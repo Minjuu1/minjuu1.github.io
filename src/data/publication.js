@@ -15,6 +15,16 @@ export const ConfPublications = [
 
 export const WorkPublications = [
   {
+    id: 'protoflow',
+    title: 'Supporting Design Reasoning in AI-assisted Interface Prototyping for HCI Research',
+    authors: ['grace', 'minju', 'jenny', 'daeun'],
+    year: 2026,
+    note: 'CHI 2026 Poster (To appear)',
+    urls: {
+      arxiv: '',
+    },
+  },
+  {
     id: 'teachcraft',
     title: 'How Do Teachers Create Pedagogical Chatbots?: Current Practices and Challenges',
     authors: ['minju', 'hyoungwook', 'juho'],
@@ -22,6 +32,16 @@ export const WorkPublications = [
     note: 'CHI 2025 Workshop: Augmented Educators and AI',
     urls: {
       arxiv: 'https://arxiv.org/abs/2503.00967',
+    },
+  },
+  {
+    id: 'beyond',
+    title: 'Beyond Tools: Understanding How Heavy Users Integrate LLMs into Everyday Tasks and Decision-Making',
+    authors: ['grace', 'kiroong', 'minju', 'sadat', 'jinwook'],
+    year: 2025,
+    note: 'CHI 2025 Workshop: Tools for Thought',
+    urls: {
+      arxiv: 'https://arxiv.org/abs/2502.15395',
     },
   },
 ];
