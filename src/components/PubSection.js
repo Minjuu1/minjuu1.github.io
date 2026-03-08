@@ -34,7 +34,7 @@ const PubCard = ({ pub }) => {
             const isEqual = pub.equalContribution?.includes(author);
             return (
               <React.Fragment key={author}>
-                {person ? (
+                {person?.url ? (
                   <a
                     href={person.url}
                     target="_blank"
@@ -45,7 +45,7 @@ const PubCard = ({ pub }) => {
                   </a>
                 ) : (
                   <span className="author-name">
-                    {author}{isEqual && <sup>*</sup>}
+                    {person?.name ?? author}{isEqual && <sup>*</sup>}
                   </span>
                 )}
                 {idx < pub.authors.length - 1 && ', '}
