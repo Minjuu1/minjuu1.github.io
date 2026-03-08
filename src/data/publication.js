@@ -18,6 +18,7 @@ export const WorkPublications = [
     id: 'protoflow',
     title: 'Supporting Design Reasoning in AI-assisted Interface Prototyping for HCI Research',
     authors: ['grace', 'minju', 'jenny', 'daeun'],
+    equalContribution: ['grace', 'minju'],
     year: 2026,
     note: 'CHI 2026 Poster (To appear)',
     urls: {

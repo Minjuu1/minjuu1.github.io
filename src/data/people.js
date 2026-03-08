@@ -14,6 +14,6 @@ export const People = [
   { id: 'jieun', name: 'Jieun Han', affiliation: 'KAIST' },
   { id: 'soyeon', name: 'So-yeon Ahn', affiliation: 'KAIST' },
   { id: 'zixin', name: 'Zixin Chen', affiliation: 'HKUST' },
-  { id: 'daeun', name: 'Daeun Choi', affiliation: 'KAIST' },
+  { id: 'daeun', name: 'DaEun Choi', affiliation: 'KAIST' },
   { id: 'jenny', name: 'Jenny C. Yang', affiliation: 'KAIST' },
 ];

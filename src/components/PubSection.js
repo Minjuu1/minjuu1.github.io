@@ -31,6 +31,7 @@ const PubCard = ({ pub }) => {
           {pub.authors.map((author, idx) => {
             const person = People.find((p) => p.id === author);
             const isMe = author === 'minju';
+            const isEqual = pub.equalContribution?.includes(author);
             return (
               <React.Fragment key={author}>
                 {person ? (
@@ -40,11 +41,11 @@ const PubCard = ({ pub }) => {
                     rel="noopener noreferrer"
                     className={`author-link ${isMe ? 'author-me' : 'author-other'}`}
                   >
-                    {person.name}
+                    {person.name}{isEqual && <sup>*</sup>}
                   </a>
                 ) : (
                   <span className="author-name">
-                    {author}
+                    {author}{isEqual && <sup>*</sup>}
                   </span>
                 )}
                 {idx < pub.authors.length - 1 && ', '}
@@ -103,7 +104,7 @@ const PubSection = () => {
       </h2>
       <div className="section-space">
         <h3 className="pub-subsection-title">
-          Conference papers
+          Conference Papers
         </h3>
         <div className="pub-grid">
           {ConfPublications.map((p) => (
@@ -113,7 +114,7 @@ const PubSection = () => {
       </div>
       <div>
         <h3 className="pub-subsection-title">
-          Workshop papers
+          Posters and Workshop Papers
         </h3>
         <div className="pub-grid">
           {WorkPublications.map((p) => (
