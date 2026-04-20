@@ -27,7 +27,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="https://linkedin.com/in/yourprofile"
+              href="https://www.linkedin.com/in/minju-y-a72a79300/"
               target="_blank"
               rel="noopener noreferrer"
               className="hero-btn"
