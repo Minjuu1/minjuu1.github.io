@@ -32,9 +32,8 @@ export const WorkPublications = [
     title: 'Toward Critical AI Literacy: Embedded Assessment of Students’ Critical Engagement with LLM Responses',
     authors: ['minju', 'Junghee Hwang'],
     equalContribution: ['minju', 'Junghee Hwang'],
-    note: 'ALIT4ALL: 2nd International Workshop on AI Literacy Education For All, In conjunction with the Festival of Learning 2026 @ AIED, Seoul, Korea',
+    note: 'ALIT4ALL: 2nd International Workshop on AI Literacy Education For All, In conjunction with the Festival of Learning 2026 @ AIED, Seoul, Korea\n(Poster track)',
     year: 2026,
-    note: 'Poster paper',
     urls: {
       paper: 'https://drive.google.com/file/d/1eBcZh8QWNiVI55wYnY7mzyMXGcETkcCX/view?usp=sharing',
     },
