@@ -3,6 +3,28 @@ import './NewsSection.css';
 
 const newsList = [
 	{
+		date: 'Jun 2026',
+		content: <>✈️ Attending Festival of Learning 2026 in Seoul, Korea.</>,
+	},
+	{
+		date: 'Apr 2026',
+		content: <>
+				🎉 Our paper{' '}
+				<a
+					href="https://dl.acm.org/doi/10.1145/3774398.3811612"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					RelianceScope
+				</a>{' '}
+				was accepted to L@S 2026.
+			</>,
+	},
+	{
+		date: 'Mar 2026',
+		content: <>✨ Serving as General Chair Assistant for the Festival of Learning 2026.</>,
+	},
+	{
 		date: 'Sep 2025',
 		content: <>✈️ Attending UIST 2025 in Busan, Korea.</>,
 	},
@@ -28,7 +50,7 @@ const newsList = [
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					(TeachTune)
+					TeachTune
 				</a>{' '}
 				was accepted to CHI 2025.
 			</>

@@ -76,6 +76,11 @@
   color: #4b5563;
 }
 
+.note-section {
+  font-size: 0.875rem;
+  color: #4b5563;
+}
+
 .card-sidebar {
   width: 10rem;
   text-align: right;
@@ -96,4 +101,9 @@
 
 .gpa-info {
   color: #6b7280;
+}
+
+.org-link {
+  color: #2563eb;
+  text-decoration: none;
 }

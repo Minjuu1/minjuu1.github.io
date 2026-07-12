@@ -10,7 +10,14 @@ const ExperienceCard = ({ exp }) => {
     <article className="experience-card">
       <div className="card-content">
         <div className="card-title">
-          {exp.title} @ {exp.organization}
+          {exp.title} @{' '}
+          {exp.url ? (
+            <a href={exp.url} target="_blank" rel="noopener noreferrer" className="org-link">
+              {exp.organization}
+            </a>
+          ) : (
+            exp.organization
+          )}
         </div>
 
         <div className="card-details">
@@ -66,6 +73,9 @@ const ExperienceCard = ({ exp }) => {
             </div>
           )}
         </div>
+        {exp.note && (
+          <div className="note-section">{exp.note}</div>
+        )}
       </div>
 
       <div className="card-sidebar">

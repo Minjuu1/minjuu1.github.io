@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ConfPublications, WorkPublications } from '../data/publication';
 import { People } from '../data/people';
-import { FileText, Github, Globe, ExternalLink } from 'lucide-react';
+import { FileText, Github, Globe, ExternalLink, Award } from 'lucide-react';
 import './PubSection.css';
 
 const PubCard = ({ pub }) => {
@@ -56,6 +56,12 @@ const PubCard = ({ pub }) => {
         {pub.venue && (
           <div className="pub-venue">
             {pub.venue} {pub.year ? ` ${pub.year}` : ''}
+            {pub.award && (
+              <span className="pub-award">
+                <Award size={14} />
+                {pub.award}
+              </span>
+            )}
           </div>
         )}
         {pub.note && <div className="pub-note">{pub.note}</div>}
@@ -66,13 +72,13 @@ const PubCard = ({ pub }) => {
               const getIcon = (label) => {
                 const lowerLabel = label.toLowerCase();
                 if (lowerLabel.includes('paper') || lowerLabel.includes('pdf')) {
-                  return <FileText size={16} />;
+                  return <FileText size={13} />;
                 } else if (lowerLabel.includes('code') || lowerLabel.includes('github')) {
-                  return <Github size={16} />;
+                  return <Github size={13} />;
                 } else if (lowerLabel.includes('demo') || lowerLabel.includes('website') || lowerLabel.includes('site')) {
-                  return <Globe size={16} />;
+                  return <Globe size={13} />;
                 } else {
-                  return <ExternalLink size={16} />;
+                  return <ExternalLink size={13} />;
                 }
               };
 

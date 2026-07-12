@@ -11,9 +11,9 @@ export const People = [
   { id: 'sadat', name: 'Sadat Shams Chowdhury', affiliation: 'KAIST' },
   { id: 'jinwook', name: 'Jinwook Seo', affiliation: 'SNU' },
   { id: 'kiroong', name: 'Kiroong Choe', affiliation: 'SNU' },
-  { id: 'jieun', name: 'Jieun Han', affiliation: 'KAIST' },
-  { id: 'soyeon', name: 'So-yeon Ahn', affiliation: 'KAIST' },
-  { id: 'zixin', name: 'Zixin Chen', affiliation: 'HKUST' },
+  { id: 'jieun', name: 'Jieun Han', affiliation: 'KAIST', url: 'https://zeunie.github.io/' },
+  { id: 'soyeon', name: 'So-yeon Ahn', affiliation: 'KAIST', url:'https://sites.google.com/view/soyeonahn/about'},
+  { id: 'zixin', name: 'Zixin Chen', affiliation: 'HKUST', url: 'https://cinderd.github.io/' },
   { id: 'daeun', name: 'DaEun Choi', affiliation: 'KAIST' },
   { id: 'jenny', name: 'Jenny C. Yang', affiliation: 'KAIST' },
 ];

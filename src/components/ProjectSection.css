@@ -1,13 +1,8 @@
-/* Publication Section Styles */
-.pub-section {
+.project-section {
   padding: 2rem 0;
 }
 
-.pub-section .section-space {
-  margin-bottom: 1.5rem;
-}
-
-.pub-section-title {
+.project-section-title {
   font-size: 1.5rem;
   font-weight: 300;
   color: #111827;
@@ -17,22 +12,12 @@
   gap: 0.75rem;
 }
 
-.pub-subsection-title {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #1f2937;
-  margin-bottom: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.pub-grid {
+.project-grid {
   display: grid;
   gap: 1rem;
 }
 
-.pub-card {
+.project-card {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
@@ -42,16 +27,16 @@
 }
 
 @media (min-width: 640px) {
-  .pub-card {
+  .project-card {
     flex-direction: row;
   }
 }
 
-.pub-card:last-child {
+.project-card:last-child {
   border-bottom: none;
 }
 
-.pub-image {
+.project-image {
   width: 100%;
   flex-shrink: 0;
   overflow: hidden;
@@ -62,91 +47,50 @@
 }
 
 @media (min-width: 640px) {
-  .pub-image {
+  .project-image {
     width: 15rem;
   }
 }
 
-.pub-image img {
+.project-image img {
   width: 100%;
   height: auto;
   display: block;
 }
 
-.pub-content {
+.project-content {
   flex: 1;
 }
 
-.pub-title {
-  font-size: 1rem;
-  font-weight: 600;
+.project-title {
+  font-size: 1.125rem;
+  font-weight: 500;
   color: #111827;
-  margin-top: 0;
   margin-bottom: 0.25rem;
 }
 
-.pub-authors {
-  font-size: 0.875rem;
-  color: #4b5563;
-  margin-bottom: 0.5rem;
-}
-
-.author-link {
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.author-link.author-me {
-  font-weight: 600;
-  color: #111827;
-}
-
-.author-link.author-other {
-  color: #4b5563;
-}
-
-.author-link.author-other:hover {
-  color: #2563eb;
-}
-
-.author-name {
-  color: #6b7280;
-}
-
-.pub-venue {
+.project-year {
   font-size: 0.875rem;
   color: #6b7280;
   margin-bottom: 0.5rem;
   font-weight: 500;
 }
 
-.pub-award {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.25rem;
-  margin-left: 0.5rem;
-  padding: 0.125rem 0.5rem;
-  font-size: 0.75rem;
-  font-weight: 600;
-  color: #ffffff;
-  background-color: #b177c8;
-  border-radius: 9999px;
-}
-
-.pub-note {
+.project-description {
   font-size: 0.875rem;
-  color: #6b7280;
+  color: #4b5563;
   margin-bottom: 0.5rem;
+  line-height: 1.5;
 }
 
-.pub-links {
+.project-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
 
-.pub-link {
+.project-link {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -154,12 +98,12 @@
   font-size: 0.75rem;
   font-weight: 500;
   color: #0369a1;
-  background-color: #d5edfd;
+  background-color: #e0f2fe;
   border-radius: 0.25rem;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s;
 }
 
-.pub-link:hover {
+.project-link:hover {
   background-color: #bae6fd;
 }

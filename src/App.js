@@ -3,6 +3,7 @@ import Hero from './components/Hero';
 import NewsSection from './components/NewsSection';
 import ExpSection from './components/ExpSection';
 import PubSection from './components/PubSection';
+// import ProjectSection from './components/ProjectSection';
 import Footer from './components/Footer';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Hero />
         <NewsSection />
         <PubSection />
+        {/* <ProjectSection /> */}
         <ExpSection />
       </main>
       <Footer />

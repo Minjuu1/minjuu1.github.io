@@ -1,5 +1,14 @@
 export const Experiences = [
   {
+    id: 'fol',
+    title: 'General Chair Assistant',
+    organization: 'Festival of Learning 2026',
+    url: 'https://festival-of-learning-2026.info/',
+    note: 'Jointly hosted by AIED, EDM, and L@S',
+    location: 'Seoul, Korea',
+    period: '2026.06.27 - 2026.07.03',
+  },
+  {
     id: 'lalalab',
     title: 'Research Intern',
     organization: 'LaLaLab',
