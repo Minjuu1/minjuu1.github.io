@@ -2,7 +2,7 @@ export const ConfPublications = [
   {
     id: 'reliancescope',
     title: 'RelianceScope: An Analytical Framework for Examining Students\' Reliance on Generative AI Chatbots in Problem Solving',
-    authors: ['hyoungwook', 'minju', 'Jieun Han', 'Zixin Chen', 'soyeon', 'xu'],
+    authors: ['hyoungwook', 'minju', 'jieun', 'zixin', 'soyeon', 'xu'],
     year: 2026,
     venue: 'L@S',
     award: 'Best Paper',
@@ -41,7 +41,7 @@ export const WorkPublications = [
   {
     id: 'mindful',
     title: 'Conversational AI Meets Mindfulness: Exploring LLMs as a Socio‑Emotional Layer in a Math Intelligent Tutoring System',
-    authors: ['Vera Rief', 'Mirella Hladký', 'minju', 'Stephanie Heel', 'Shintaro Sato', 'Tomohiro Nagashima'],
+    authors: ['Vera Rief', 'Mirella Hladký', 'minju', 'Stephanie Heel', 'Shintaro Sato', 'tomo'],
     venue: 'Proceedings of the 21st European Conference on Technology Enhanced Learning (EC-TEL2026)',
     year: 2026,
     note: 'Short Paper (To appear)',
