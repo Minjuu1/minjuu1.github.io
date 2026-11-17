@@ -29,11 +29,11 @@
 /* Wide screens: fixed left panel (3) and scrolling right panel (7). */
 @media (min-width: 1024px) {
   .layout {
-    width: 90%;
-    max-width: 78rem;
+    width: 86%;
+    max-width: 72rem;
     display: grid;
     grid-template-columns: 3fr 7fr;
-    column-gap: 3.5rem;
+    column-gap: 3rem;
     align-items: start;
   }
 
