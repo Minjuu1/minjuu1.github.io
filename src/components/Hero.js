@@ -12,7 +12,7 @@ const LINKS = [
   { label: 'CV', url: '/files/cv.pdf', Icon: FileText, external: true },
 ];
 
-// Left panel: photo, name, and links.
+// Left panel: photo, name, affiliation, and links.
 export const Profile = () => {
   return (
     <section className="profile-section">
@@ -23,7 +23,18 @@ export const Profile = () => {
         />
       </div>
       <h1 className="hero-title">Minju Yoo</h1>
-      <p className="hero-subtitle">M.S. Student · Human‑Computer Interaction · Learning Sciences</p>
+      <div className="hero-affiliation">
+        <p>
+          M.S. Student, <a href="https://www.kaist.ac.kr/">KAIST School of Computing</a>
+        </p>
+        <p>
+          Advised by <a href="https://joseph.seering.org/">Joseph Seering</a> and{' '}
+          <a href="https://juhokim.com/">Juho Kim</a>
+        </p>
+        <p>
+          <a href="https://cstlab.org/">CSTL</a> · <a href="https://www.kixlab.org/">KIXLAB</a>
+        </p>
+      </div>
       <ul className="profile-links">
         {LINKS.filter((link) => link.url).map(({ label, url, Icon, external }) => (
           <li key={label}>
@@ -42,13 +53,10 @@ export const Profile = () => {
   );
 };
 
-// Top of the right panel: bio.
+// Top of the right panel: research statement.
 export const About = () => {
   return (
     <section className="about-section">
-      <p className="hero-description">
-        I am a second-year master's student at <a href="https://www.kaist.ac.kr/">KAIST School of Computing</a>, co-advised by <a href="https://joseph.seering.org/">Prof. Joseph Seering</a> and <a href="https://juhokim.com/">Prof. Juho Kim</a>. Currently, I'm part of both <a href="https://cstlab.org/">CSTL</a> and <a href="https://www.kixlab.org/">KIXLAB</a>.
-      </p>
       <p className="hero-description">
         I design and study conversational AI systems that support learners' reasoning, reflection, and agency, as well as teachers' pedagogical decisions. My research draws on Human-Computer Interaction and Learning Sciences, with an emphasis on learners' critical engagement with AI.
       </p>
