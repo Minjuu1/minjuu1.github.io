@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <title>In a middle school English class, students read their textbook and discuss it with two AI agents while the teacher looks on</title>
+  <defs>
+    <g id="bot" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -17V-24" fill="none"/>
+      <circle cx="0" cy="-27" r="3.5" fill="#1f6b4f"/>
+      <rect x="-23" y="-6" width="5" height="10" rx="2.5" fill="#cbd5d1"/>
+      <rect x="18" y="-6" width="5" height="10" rx="2.5" fill="#cbd5d1"/>
+      <rect x="-19" y="-17" width="38" height="32" rx="10" fill="#e3f1eb"/>
+      <rect x="-13" y="-10" width="26" height="15" rx="7.5" fill="#1f2937" stroke="none"/>
+      <rect x="-7.5" y="-5.5" width="4" height="6" rx="2" fill="#e3f1eb" stroke="none"/>
+      <rect x="3.5" y="-5.5" width="4" height="6" rx="2" fill="#e3f1eb" stroke="none"/>
+    </g>
+    <g id="person">
+      <path d="M-4.5 3V7C-4.5 9 -6 10 -8 10.5C-4.5 16 4.5 16 8 10.5C6 10 4.5 9 4.5 7V3" fill="#ffffff"/>
+      <circle cx="-16" cy="-6" r="3.8" fill="#ffffff"/>
+      <circle cx="16" cy="-6" r="3.8" fill="#ffffff"/>
+      <circle cx="0" cy="-8" r="16" fill="#ffffff"/>
+      <circle cx="-9" cy="-1" r="3.2" fill="#f7b9b0" stroke="none"/>
+      <circle cx="9" cy="-1" r="3.2" fill="#f7b9b0" stroke="none"/>
+    </g>
+  </defs>
+
+  <rect width="480" height="270" fill="#f3f7f5"/>
+
+  <!-- chalkboard: English class -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linejoin="round">
+    <rect x="22" y="24" width="136" height="84" rx="8" fill="#1f6b4f"/>
+    <text x="90" y="64" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff" stroke="none">ABC</text>
+    <path d="M40 84H104" stroke="#ffffff" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- chatbot to students -->
+  <g fill="none" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round">
+    <path d="M300 158C314 158 318 164 328 168"/>
+    <path d="M300 186C340 150 392 138 416 156"/>
+    <path d="M140 196C152 196 156 150 170 150"/>
+  </g>
+
+  <!-- classroom screen with the chatbot -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="172" y="34" width="126" height="170" rx="16" fill="#ffffff"/>
+    <!-- open textbook -->
+    <path d="M205 102Q220 98 235 106V136Q220 128 205 132Z" fill="#ffffff"/>
+    <path d="M265 102Q250 98 235 106V136Q250 128 265 132Z" fill="#ffffff"/>
+    <path d="M212 111Q220 109 228 113M212 120Q220 118 228 122M242 113Q250 109 258 111M242 122Q250 118 258 120" stroke="#9ca3af" stroke-width="2" fill="none"/>
+    <rect x="184" y="148" width="64" height="20" rx="10" fill="#1f6b4f"/>
+    <path d="M196 158H234" stroke="#ffffff" fill="none"/>
+    <rect x="222" y="176" width="64" height="20" rx="10" fill="#1f6b4f"/>
+    <path d="M234 186H272" stroke="#ffffff" fill="none"/>
+  </g>
+  <use href="#bot" transform="translate(206 76)"/>
+  <use href="#bot" transform="translate(264 76)"/>
+
+  <!-- teacher: long brown hair, glasses, yellow top -->
+  <g transform="translate(84 198) scale(2)" stroke="#1f2937" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-19 -6Q-21 -28 0 -28Q21 -28 19 -6L21 16Q21 20 17 20H-17Q-21 20 -21 16Z" fill="#8a5a3c"/>
+    <path d="M-21 25C-21 15 -14 10.5 0 9.5C14 10.5 21 15 21 25Z" fill="#f6d58a"/>
+    <use href="#person"/>
+    <path d="M-16 -7Q-17 -26 0 -26Q17 -26 16 -7Q14 -16 4 -19Q-2 -11 -16 -7Z" fill="#8a5a3c"/>
+    <g stroke-width="1" fill="none">
+      <circle cx="-5" cy="-4.5" r="4"/>
+      <circle cx="5" cy="-4.5" r="4"/>
+      <path d="M-1 -5Q0 -6 1 -5"/>
+    </g>
+    <circle cx="-5" cy="-4" r="1" fill="#1f2937" stroke="none"/>
+    <circle cx="5" cy="-4" r="1" fill="#1f2937" stroke="none"/>
+    <path d="M-2 1.5Q0 3.5 2 1.5" fill="none" stroke-width="1"/>
+  </g>
+
+  <!-- students -->
+  <g transform="translate(342 204) scale(1.5)" stroke="#1f2937" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16 13L26 -15" fill="none"/>
+    <circle cx="27" cy="-18" r="4" fill="#ffffff"/>
+    <path d="M-21 25C-21 15 -14 10.5 0 9.5C14 10.5 21 15 21 25Z" fill="#a9c8e8"/>
+    <path d="M-17 17.5H17M-18.5 22H18.5" stroke="#ffffff" stroke-width="1.4" stroke-linecap="butt" fill="none"/>
+    <use href="#person"/>
+    <path d="M-16 -11Q-16 -27 0 -27Q16 -27 16 -11Q0 -16 -16 -11Z" fill="#1f2937"/>
+    <circle cx="-4" cy="-5" r="1.4" fill="#1f2937" stroke="none"/>
+    <circle cx="4" cy="-5" r="1.4" fill="#1f2937" stroke="none"/>
+    <path d="M-4 0Q0 6 4 0Z" fill="#1f2937" stroke-width="1"/>
+  </g>
+  <g transform="translate(430 204) scale(1.5)" stroke="#1f2937" stroke-width="1.67" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-19 2Q-22 -27 0 -27Q22 -27 19 2Q20 10 14 10H-14Q-20 10 -19 2Z" fill="#1f2937"/>
+    <path d="M-21 25C-21 15 -14 10.5 0 9.5C14 10.5 21 15 21 25Z" fill="#cdbdea"/>
+    <use href="#person"/>
+    <path d="M-16 -8Q-17 -26 0 -26Q17 -26 16 -8Q10 -16 0 -15Q-10 -16 -16 -8Z" fill="#1f2937"/>
+    <circle cx="-4" cy="-5" r="1.4" fill="#1f2937" stroke="none"/>
+    <circle cx="4" cy="-5" r="1.4" fill="#1f2937" stroke="none"/>
+    <path d="M-3 0.5Q0 3.5 3 0.5" fill="none" stroke-width="1.3"/>
+  </g>
+  <!-- students' reply -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round">
+    <rect x="352" y="96" width="84" height="24" rx="12" fill="#ffffff"/>
+    <path d="M366 108H416" stroke="#9ca3af" fill="none"/>
+  </g>
+</svg>

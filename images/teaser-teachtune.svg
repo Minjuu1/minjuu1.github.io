@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <title>A teacher tunes three chatbots while each one chats with a different simulated student</title>
+  <defs>
+    <g id="bot" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -17V-24" fill="none"/>
+      <circle cx="0" cy="-27" r="3.5" fill="#1f6b4f"/>
+      <rect x="-23" y="-6" width="5" height="10" rx="2.5" fill="#cbd5d1"/>
+      <rect x="18" y="-6" width="5" height="10" rx="2.5" fill="#cbd5d1"/>
+      <rect x="-19" y="-17" width="38" height="32" rx="10" fill="#e3f1eb"/>
+      <rect x="-13" y="-10" width="26" height="15" rx="7.5" fill="#1f2937" stroke="none"/>
+      <rect x="-7.5" y="-5.5" width="4" height="6" rx="2" fill="#e3f1eb" stroke="none"/>
+      <rect x="3.5" y="-5.5" width="4" height="6" rx="2" fill="#e3f1eb" stroke="none"/>
+    </g>
+    <g id="chat" stroke-linecap="round">
+      <rect x="0" y="-21" width="50" height="17" rx="8.5" fill="#1f6b4f" stroke="#1f2937" stroke-width="2.5"/>
+      <path d="M10 -12.5H38" stroke="#ffffff" stroke-width="2.5" fill="none"/>
+      <rect x="40" y="3" width="50" height="17" rx="8.5" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+      <path d="M51 11.5H72" stroke="#9ca3af" stroke-width="2.5" fill="none"/>
+    </g>
+    <!-- student parts, centred on the shoulders. Draw order: shirt, pattern, neck (its outline is the neckline), head -->
+    <path id="neck" d="M-4.5 3V7C-4.5 9 -6 10 -8 10.5C-4.5 16 4.5 16 8 10.5C6 10 4.5 9 4.5 7V3" fill="#ffffff" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path id="shirt" d="M-21 25C-21 15 -14 10.5 0 9.5C14 10.5 21 15 21 25Z" stroke="#1f2937" stroke-width="2.5" stroke-linejoin="round"/>
+    <g id="head" stroke="#1f2937" stroke-width="2.5">
+      <circle cx="-16" cy="-6" r="3.8" fill="#ffffff"/>
+      <circle cx="16" cy="-6" r="3.8" fill="#ffffff"/>
+      <circle cx="0" cy="-8" r="16" fill="#ffffff"/>
+      <circle cx="-9" cy="-1" r="3.2" fill="#f7b9b0" stroke="none"/>
+      <circle cx="9" cy="-1" r="3.2" fill="#f7b9b0" stroke="none"/>
+    </g>
+  </defs>
+
+  <rect width="480" height="270" fill="#f3f7f5"/>
+
+  <!-- stage: three chats -->
+  <rect x="196" y="22" width="262" height="226" rx="16" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <path d="M212 97.5H442M212 172.5H442" stroke="#9ca3af" stroke-width="1.5" stroke-dasharray="2 6" stroke-linecap="round"/>
+
+  <!-- teacher to chatbots -->
+  <g fill="none" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round">
+    <path d="M180 160C198 150 190 62 214 62"/>
+    <path d="M180 160C196 156 198 135 214 135"/>
+    <path d="M180 160C200 168 192 208 214 208"/>
+  </g>
+
+  <!-- teacher: chalkboard behind, long brown hair, ears, short neck into a round collar, glasses, book and wrench -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="22" y="26" width="152" height="100" rx="8" fill="#1f6b4f"/>
+    <path d="M36 46H84M36 60H66" stroke="#ffffff" fill="none"/>
+    <path d="M140 64L152 42L164 64Z" stroke="#ffffff" fill="none" stroke-width="2"/>
+    <path d="M50 132Q48 86 92 86Q136 86 134 132L138 180Q139 192 128 192H56Q45 192 46 180Z" fill="#8a5a3c"/>
+    <path d="M38 240C38 200 54 176 92 172C130 176 146 200 146 240Z" fill="#f6d58a"/>
+    <path d="M83 152V163C83 169 80 172 75 173.5C82 188 102 188 109 173.5C104 172 101 169 101 163V152" fill="#ffffff"/>
+    <circle cx="58" cy="134" r="7" fill="#ffffff"/>
+    <circle cx="126" cy="134" r="7" fill="#ffffff"/>
+    <circle cx="92" cy="128" r="34" fill="#ffffff"/>
+    <path d="M58 130Q56 92 92 92Q128 92 126 130Q122 112 100 104Q88 122 58 130Z" fill="#8a5a3c"/>
+    <circle cx="71" cy="147" r="5.5" fill="#f7b9b0" stroke="none"/>
+    <circle cx="113" cy="147" r="5.5" fill="#f7b9b0" stroke="none"/>
+    <g stroke-width="2" fill="none">
+      <circle cx="81" cy="137" r="8.5"/>
+      <circle cx="103" cy="137" r="8.5"/>
+      <path d="M89.5 136Q92 134 94.5 136"/>
+    </g>
+    <circle cx="81" cy="138" r="2" fill="#1f2937" stroke="none"/>
+    <circle cx="103" cy="138" r="2" fill="#1f2937" stroke="none"/>
+    <path d="M88 149Q92 153 96 149" fill="none" stroke-width="2"/>
+    <!-- open book -->
+    <path d="M30 198Q46 194 62 204V240Q46 230 30 234Z" fill="#ffffff"/>
+    <path d="M94 198Q78 194 62 204V240Q78 230 94 234Z" fill="#ffffff"/>
+    <path d="M38 208Q46 207 54 211M38 218Q46 217 54 221M70 211Q78 207 86 208M70 221Q78 217 86 218" stroke="#9ca3af" stroke-width="2" fill="none"/>
+    <circle cx="62" cy="242" r="8" fill="#ffffff"/>
+    <!-- wrench -->
+    <g transform="translate(150 200) rotate(38)">
+      <rect x="-4.5" y="-30" width="9" height="40" rx="4.5" fill="#cbd5d1"/>
+      <circle cx="0" cy="-36" r="11" fill="#cbd5d1"/>
+      <path d="M-4 -49V-37H4V-49" fill="#f3f7f5"/>
+    </g>
+    <circle cx="140" cy="208" r="9" fill="#ffffff"/>
+  </g>
+
+  <!-- row 1: eager student (striped lilac shirt), high level -->
+  <use href="#bot" x="238" y="62"/>
+  <use href="#chat" x="268" y="60"/>
+  <g transform="translate(396 58)" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 15L28 -14" fill="none"/>
+    <circle cx="29" cy="-17" r="4" fill="#ffffff"/>
+    <use href="#shirt" fill="#cdbdea"/>
+    <path d="M-17 17.5H17M-18.5 22H18.5" stroke="#ffffff" stroke-width="2" stroke-linecap="butt" fill="none"/>
+    <use href="#neck"/>
+    <use href="#head"/>
+    <path d="M-16 -9Q-17 -26 0 -26Q17 -26 16 -9Q9 -18 0 -17Q-9 -18 -16 -9Z" fill="#1f2937"/>
+    <path d="M-1 -26Q2 -34 8 -29" fill="none"/>
+    <circle cx="-4" cy="-5" r="1.7" fill="#1f2937" stroke="none"/>
+    <circle cx="4" cy="-5" r="1.7" fill="#1f2937" stroke="none"/>
+    <path d="M-4 0Q0 6 4 0Z" fill="#1f2937" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(436 44)" stroke="#1f2937" stroke-width="2">
+    <rect x="0" y="0" width="9" height="9" rx="2.5" fill="#1f6b4f"/>
+    <rect x="0" y="12" width="9" height="9" rx="2.5" fill="#1f6b4f"/>
+    <rect x="0" y="24" width="9" height="9" rx="2.5" fill="#1f6b4f"/>
+  </g>
+
+  <!-- row 2: confused student (dotted coral shirt, brown bob), middle level -->
+  <use href="#bot" x="238" y="135"/>
+  <use href="#chat" x="268" y="133"/>
+  <g transform="translate(396 131)" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-19 2Q-22 -27 0 -27Q22 -27 19 2Q20 10 14 10H-14Q-20 10 -19 2Z" fill="#8a5a3c"/>
+    <use href="#shirt" fill="#f2a48c"/>
+    <g fill="#ffffff" stroke="none">
+      <circle cx="-11" cy="18" r="1.8"/><circle cx="0" cy="21" r="1.8"/><circle cx="11" cy="18" r="1.8"/>
+    </g>
+    <use href="#neck"/>
+    <use href="#head"/>
+    <path d="M-16 -8Q-17 -26 0 -26Q17 -26 16 -8Q10 -16 0 -15Q-10 -16 -16 -8Z" fill="#8a5a3c"/>
+    <circle cx="-4" cy="-5" r="1.7" fill="#1f2937" stroke="none"/>
+    <circle cx="4" cy="-5" r="1.7" fill="#1f2937" stroke="none"/>
+    <path d="M-4 1Q-2 -1 0 1Q2 3 4 1" fill="none" stroke-width="2"/>
+    <text x="21" y="-17" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700" fill="#1f2937" stroke="none">?</text>
+  </g>
+  <g transform="translate(436 117)" stroke="#1f2937" stroke-width="2">
+    <rect x="0" y="0" width="9" height="9" rx="2.5" fill="#ffffff"/>
+    <rect x="0" y="12" width="9" height="9" rx="2.5" fill="#1f6b4f"/>
+    <rect x="0" y="24" width="9" height="9" rx="2.5" fill="#1f6b4f"/>
+  </g>
+
+  <!-- row 3: sleepy student (plain sky shirt), low level -->
+  <use href="#bot" x="238" y="208"/>
+  <use href="#chat" x="268" y="206"/>
+  <g transform="translate(396 204)" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <use href="#shirt" fill="#a9c8e8"/>
+    <use href="#neck"/>
+    <use href="#head"/>
+    <path d="M-16 -11Q-16 -27 0 -27Q16 -27 16 -11Q0 -16 -16 -11Z" fill="#1f2937"/>
+    <path d="M-7 -5Q-4.5 -2.5 -2 -5M2 -5Q4.5 -2.5 7 -5" fill="none" stroke-width="2"/>
+    <circle cx="0" cy="2" r="1.6" fill="#1f2937" stroke="none"/>
+    <text x="20" y="-18" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#1f2937" stroke="none">z</text>
+    <text x="28" y="-27" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" fill="#1f2937" stroke="none">z</text>
+  </g>
+  <g transform="translate(436 190)" stroke="#1f2937" stroke-width="2">
+    <rect x="0" y="0" width="9" height="9" rx="2.5" fill="#ffffff"/>
+    <rect x="0" y="12" width="9" height="9" rx="2.5" fill="#ffffff"/>
+    <rect x="0" y="24" width="9" height="9" rx="2.5" fill="#1f6b4f"/>
+  </g>
+</svg>

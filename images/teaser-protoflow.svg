@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <title>An HCI researcher prototypes an interface in a node-based tool: design goals on the left, and a graph of action nodes, design variables, and alternatives that lead to generated UI prototypes</title>
+
+  <rect width="480" height="270" fill="#f3f7f5"/>
+
+  <!-- tool window -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="112" y="22" width="346" height="226" rx="16" fill="#ffffff"/>
+    <path d="M168 22V248" fill="none"/>
+  </g>
+
+  <!-- sidebar: design goal layers -->
+  <g stroke="#1f2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M124 42H146" stroke-width="3.5" fill="none"/>
+    <rect x="122" y="58" width="38" height="16" rx="8" fill="#e3f1eb"/>
+    <rect x="122" y="80" width="38" height="16" rx="8" fill="#ffffff"/>
+    <rect x="122" y="102" width="38" height="16" rx="8" fill="#ffffff"/>
+    <circle cx="130" cy="66" r="2.5" fill="#1f6b4f" stroke="none"/>
+    <circle cx="130" cy="88" r="2.5" fill="#9ca3af" stroke="none"/>
+    <circle cx="130" cy="110" r="2.5" fill="#9ca3af" stroke="none"/>
+    <path d="M124 136H158M124 146H150M124 156H154" stroke="#9ca3af" fill="none"/>
+  </g>
+
+  <!-- edges -->
+  <g fill="none" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round">
+    <path d="M214 122H230"/>
+    <path d="M278 114C290 114 284 60 296 60"/>
+    <path d="M278 122H296"/>
+    <path d="M278 130C290 130 284 174 296 174"/>
+    <path d="M254 142V160"/>
+    <path d="M344 60C356 60 352 72 364 72"/>
+    <path d="M344 174C356 174 352 186 364 186"/>
+  </g>
+
+  <!-- nodes: action (lilac), design variables (yellow), alternatives (accent tint) -->
+  <g stroke="#1f2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="178" y="108" width="36" height="28" rx="7" fill="#cdbdea"/>
+    <path d="M185 118H207M185 126H199" stroke-width="2" fill="none"/>
+
+    <rect x="230" y="102" width="48" height="40" rx="8" fill="#f6d58a"/>
+    <path d="M238 114H270M238 122H262M238 130H266" fill="none"/>
+    <rect x="230" y="160" width="48" height="34" rx="8" fill="#f6d58a"/>
+    <path d="M238 172H270M238 181H258" fill="none"/>
+
+    <rect x="296" y="46" width="48" height="28" rx="7" fill="#e3f1eb"/>
+    <path d="M304 56H336M304 64H324" fill="none"/>
+    <rect x="296" y="108" width="48" height="28" rx="7" fill="#e3f1eb"/>
+    <path d="M304 118H336M304 126H328" fill="none"/>
+    <rect x="296" y="160" width="48" height="28" rx="7" fill="#e3f1eb"/>
+    <path d="M304 170H336M304 178H320" fill="none"/>
+  </g>
+
+  <!-- generated UI prototypes -->
+  <g stroke="#1f2937" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="364" y="36" width="80" height="72" rx="8" fill="#ffffff"/>
+    <path d="M364 50H444" fill="none"/>
+    <rect x="364" y="36" width="80" height="14" rx="7" fill="#f2a48c"/>
+    <rect x="372" y="58" width="28" height="22" rx="4" fill="#a9c8e8"/>
+    <path d="M408 62H436M408 71H428M372 90H436M372 99H420" stroke="#9ca3af" fill="none"/>
+
+    <rect x="364" y="150" width="80" height="72" rx="8" fill="#ffffff"/>
+    <path d="M364 164H444" fill="none"/>
+    <rect x="364" y="150" width="80" height="14" rx="7" fill="#f2a48c"/>
+    <path d="M372 176H436M372 185H424" stroke="#9ca3af" fill="none"/>
+    <rect x="372" y="196" width="30" height="16" rx="8" fill="#1f6b4f"/>
+    <rect x="408" y="196" width="28" height="16" rx="8" fill="#ffffff"/>
+  </g>
+
+  <!-- toolbar -->
+  <g stroke="#1f2937" stroke-width="2">
+    <rect x="218" y="216" width="92" height="20" rx="10" fill="#ffffff"/>
+    <circle cx="234" cy="226" r="3.5" fill="#a9c8e8" stroke="none"/>
+    <circle cx="254" cy="226" r="3.5" fill="#cdbdea" stroke="none"/>
+    <circle cx="274" cy="226" r="3.5" fill="#1f6b4f" stroke="none"/>
+    <circle cx="294" cy="226" r="3.5" fill="#f2a48c" stroke="none"/>
+  </g>
+
+  <!-- cursor on the design-variable node -->
+  <path d="M262 132L262 152L267.5 147L272 156L276 154L271.5 145.5L278 144Z" fill="#1f2937" stroke="#ffffff" stroke-width="1.5" stroke-linejoin="round"/>
+
+  <!-- researcher: short brown hair, glasses, sky shirt with a lanyard badge -->
+  <g transform="translate(60 192) scale(2)" stroke="#1f2937" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-21 25C-21 15 -14 10.5 0 9.5C14 10.5 21 15 21 25Z" fill="#a9c8e8"/>
+    <path d="M-4.5 3V7C-4.5 9 -6 10 -8 10.5C-4.5 16 4.5 16 8 10.5C6 10 4.5 9 4.5 7V3" fill="#ffffff"/>
+    <path d="M-7 11.5L0 19L7 11.5" fill="none" stroke-width="1"/>
+    <rect x="-3.5" y="18" width="7" height="6.5" rx="1.5" fill="#ffffff" stroke-width="1"/>
+    <circle cx="-16" cy="-6" r="3.8" fill="#ffffff"/>
+    <circle cx="16" cy="-6" r="3.8" fill="#ffffff"/>
+    <circle cx="0" cy="-8" r="16" fill="#ffffff"/>
+    <circle cx="-10" cy="0" r="3" fill="#f7b9b0" stroke="none"/>
+    <circle cx="10" cy="0" r="3" fill="#f7b9b0" stroke="none"/>
+    <path d="M-16 -8Q-18 -27 0 -27Q18 -27 16 -8Q14 -17 5 -20Q-2 -13 -16 -8Z" fill="#8a5a3c"/>
+    <g stroke-width="1" fill="none">
+      <circle cx="-5" cy="-4.5" r="4"/>
+      <circle cx="5" cy="-4.5" r="4"/>
+      <path d="M-1 -5Q0 -6 1 -5"/>
+    </g>
+    <circle cx="-5" cy="-4" r="1" fill="#1f2937" stroke="none"/>
+    <circle cx="5" cy="-4" r="1" fill="#1f2937" stroke="none"/>
+    <path d="M-2 1.5Q0 3.5 2 1.5" fill="none" stroke-width="1"/>
+  </g>
+</svg>
