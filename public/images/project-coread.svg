@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <title>A learner reads a research paper while two AI peer agents guide the discussion along a chain of linked reasoning steps</title>
+  <defs>
+    <g id="bot" stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 -17V-24" fill="none"/>
+      <circle cx="0" cy="-27" r="3.5" fill="#1f6b4f"/>
+      <rect x="-23" y="-6" width="5" height="10" rx="2.5" fill="#cbd5d1"/>
+      <rect x="18" y="-6" width="5" height="10" rx="2.5" fill="#cbd5d1"/>
+      <rect x="-19" y="-17" width="38" height="32" rx="10" fill="#e3f1eb"/>
+      <rect x="-13" y="-10" width="26" height="15" rx="7.5" fill="#1f2937" stroke="none"/>
+      <rect x="-7.5" y="-5.5" width="4" height="6" rx="2" fill="#e3f1eb" stroke="none"/>
+      <rect x="3.5" y="-5.5" width="4" height="6" rx="2" fill="#e3f1eb" stroke="none"/>
+    </g>
+  </defs>
+
+  <rect width="480" height="270" fill="#f3f7f5"/>
+
+  <!-- agents to the paper and to the current step -->
+  <g fill="none" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round">
+    <path d="M286 72C272 72 268 84 254 84"/>
+    <path d="M316 176C316 196 296 204 286 214"/>
+  </g>
+
+  <!-- research paper -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="150" y="26" width="100" height="134" rx="12" fill="#ffffff"/>
+    <path d="M164 46H210" stroke-width="3.5" fill="none"/>
+    <rect x="162" y="76" width="76" height="14" rx="5" fill="#e3f1eb" stroke="none"/>
+    <path d="M164 62H236M164 83H230M164 104H236M164 118H220M164 132H236M164 146H204" stroke="#9ca3af" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- peer agents with their turns -->
+  <use href="#bot" transform="translate(418 78) scale(1.35)"/>
+  <use href="#bot" transform="translate(418 172) scale(1.35)"/>
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round">
+    <rect x="288" y="60" width="86" height="24" rx="12" fill="#1f6b4f"/>
+    <path d="M302 72H356" stroke="#ffffff" fill="none"/>
+    <rect x="300" y="154" width="74" height="24" rx="12" fill="#1f6b4f"/>
+    <path d="M314 166H356" stroke="#ffffff" fill="none"/>
+    <rect x="270" y="108" width="80" height="24" rx="12" fill="#ffffff"/>
+    <path d="M284 120H330" stroke="#9ca3af" fill="none"/>
+  </g>
+
+  <!-- linked reasoning steps: two done, one current, one ahead -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M168 226H336" fill="none"/>
+    <circle cx="168" cy="226" r="13" fill="#1f6b4f"/>
+    <circle cx="224" cy="226" r="13" fill="#1f6b4f"/>
+    <circle cx="280" cy="226" r="19" fill="#f3f7f5" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5"/>
+    <circle cx="280" cy="226" r="13" fill="#f6d58a"/>
+    <circle cx="336" cy="226" r="13" fill="#ffffff"/>
+    <path d="M162 226L166.5 230.5L174.5 221.5M218 226L222.5 230.5L230.5 221.5" stroke="#ffffff" fill="none"/>
+  </g>
+
+  <!-- learner: ink hair with a tuft, coral shirt -->
+  <g transform="translate(74 196) scale(2)" stroke="#1f2937" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-21 25C-21 15 -14 10.5 0 9.5C14 10.5 21 15 21 25Z" fill="#f2a48c"/>
+    <path d="M-4.5 3V7C-4.5 9 -6 10 -8 10.5C-4.5 16 4.5 16 8 10.5C6 10 4.5 9 4.5 7V3" fill="#ffffff"/>
+    <circle cx="-16" cy="-6" r="3.8" fill="#ffffff"/>
+    <circle cx="16" cy="-6" r="3.8" fill="#ffffff"/>
+    <circle cx="0" cy="-8" r="16" fill="#ffffff"/>
+    <circle cx="-9" cy="-1" r="3.2" fill="#f7b9b0" stroke="none"/>
+    <circle cx="9" cy="-1" r="3.2" fill="#f7b9b0" stroke="none"/>
+    <path d="M-16 -9Q-17 -26 0 -26Q17 -26 16 -9Q9 -18 0 -17Q-9 -18 -16 -9Z" fill="#1f2937"/>
+    <path d="M-1 -26Q2 -34 8 -29" fill="none"/>
+    <circle cx="-3" cy="-5" r="1" fill="#1f2937" stroke="none"/>
+    <circle cx="5" cy="-5" r="1" fill="#1f2937" stroke="none"/>
+    <path d="M-1 0.5Q1 2.5 3 0.5" fill="none" stroke-width="1"/>
+  </g>
+</svg>

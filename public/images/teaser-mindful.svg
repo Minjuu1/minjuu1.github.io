@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 270" width="480" height="270">
+  <title>An anxious student works on an algebra problem while the tutoring agent offers a hint and a calming breathing exercise</title>
+
+  <rect width="480" height="270" fill="#f3f7f5"/>
+
+  <!-- problem card -->
+  <rect x="28" y="22" width="168" height="70" rx="16" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+  <text x="112" y="66" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#1f2937">x + 3 = 7</text>
+
+  <!-- agent to hint and breathing -->
+  <g fill="none" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5" stroke-linecap="round">
+    <path d="M362 140C356 116 352 100 344 88"/>
+    <path d="M348 180C334 186 324 186 312 184"/>
+  </g>
+
+  <!-- hint bubble with lightbulb -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="288" y="32" width="104" height="50" rx="16" fill="#1f6b4f"/>
+    <circle cx="314" cy="52" r="10" fill="#ffffff"/>
+    <rect x="309" y="62" width="10" height="9" rx="3" fill="#cbd5d1"/>
+    <path d="M336 50H376M336 63H362" stroke="#ffffff" fill="none"/>
+    <path d="M314 38V36M302 45L300 43.5M326 45L328 43.5" stroke="#ffffff" stroke-width="2" fill="none"/>
+  </g>
+
+  <!-- breathing circle -->
+  <g stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="262" cy="184" r="46" fill="#e3f1eb" stroke="#1f6b4f" stroke-width="2" stroke-dasharray="4 5"/>
+    <circle cx="262" cy="184" r="31" fill="#ffffff" stroke="#1f6b4f" stroke-width="2.5"/>
+    <circle cx="262" cy="184" r="23" fill="#ffffff" stroke="#1f2937" stroke-width="2.5"/>
+    <g transform="translate(262 185) scale(1.9) translate(-262 -184)"><path d="M262 192C252 185 252 176 257.5 176C260 176 262 178 262 180C262 178 264 176 266.5 176C272 176 272 185 262 192Z" fill="#e0584f" stroke="#1f2937" stroke-width="1.3"/></g>
+  </g>
+
+  <!-- agent -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M396 140V126" fill="none"/>
+    <circle cx="396" cy="120" r="5.5" fill="#1f6b4f"/>
+    <rect x="350" y="164" width="10" height="20" rx="5" fill="#cbd5d1"/>
+    <rect x="432" y="164" width="10" height="20" rx="5" fill="#cbd5d1"/>
+    <rect x="358" y="140" width="76" height="64" rx="20" fill="#e3f1eb"/>
+    <rect x="370" y="154" width="52" height="30" rx="15" fill="#1f2937" stroke="none"/>
+    <rect x="381" y="163" width="8" height="12" rx="4" fill="#e3f1eb" stroke="none"/>
+    <rect x="403" y="163" width="8" height="12" rx="4" fill="#e3f1eb" stroke="none"/>
+  </g>
+
+  <!-- anxious student: sky striped shirt, flat ink fringe, big sweat drop -->
+  <g stroke="#1f2937" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M58 248C58 214 74 194 112 190C150 194 166 214 166 248Z" fill="#a9c8e8"/>
+    <path d="M70 224H154M64 236H160" stroke="#ffffff" stroke-width="3" stroke-linecap="butt" fill="none"/>
+    <path d="M103 170V181C103 187 100 190 95 191.5C102 206 122 206 129 191.5C124 190 121 187 121 181V170" fill="#ffffff"/>
+    <circle cx="78" cy="152" r="7" fill="#ffffff"/>
+    <circle cx="146" cy="152" r="7" fill="#ffffff"/>
+    <circle cx="112" cy="146" r="34" fill="#ffffff"/>
+    <circle cx="93" cy="161" r="5.5" fill="#f7b9b0" stroke="none"/>
+    <circle cx="131" cy="161" r="5.5" fill="#f7b9b0" stroke="none"/>
+    <g transform="translate(112 163) scale(2.125)" stroke-width="1.18"><path d="M-16 -11Q-16 -27 0 -27Q16 -27 16 -11Q0 -16 -16 -11Z" fill="#1f2937"/></g>
+    <circle cx="104" cy="153" r="2" fill="#1f2937" stroke="none"/>
+    <circle cx="120" cy="153" r="2" fill="#1f2937" stroke="none"/>
+    <path d="M106 164Q109 161 112 164Q115 167 118 164" fill="none" stroke-width="2"/>
+    <path d="M168 96Q154 118 159 127Q168 137 177 127Q182 118 168 96Z" fill="#a9c8e8"/>
+  </g>
+</svg>
