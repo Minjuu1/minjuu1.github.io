@@ -3,15 +3,43 @@ import './NewsSection.css';
 
 const newsList = [
 	{
+		date: 'Jul 2026',
+		content: <>
+				🏆 Our paper{' '}
+				<a
+					href="/files/reliancescope.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					RelianceScope
+				</a>{' '}
+				received the Best Paper Award at L@S 2026.
+			</>,
+	},
+	{
 		date: 'Jun 2026',
-		content: <>✈️ Attending Festival of Learning 2026 in Seoul, Korea.</>,
+		content: <>
+				🎉 Our poster{' '}
+				<a
+					href="/files/mindful.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Conversational AI Meets Mindfulness
+				</a>{' '}
+				was accepted to EC-TEL 2026.
+			</>,
+	},
+	{
+		date: 'Jun 2026',
+		content: <>✈️ Attended Festival of Learning 2026 in Seoul, Korea, as an organizer.</>,
 	},
 	{
 		date: 'Apr 2026',
 		content: <>
 				🎉 Our paper{' '}
 				<a
-					href="https://dl.acm.org/doi/10.1145/3774398.3811612"
+					href="/files/reliancescope.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
@@ -22,23 +50,37 @@ const newsList = [
 	},
 	{
 		date: 'Mar 2026',
-		content: <>✨ Serving as General Chair Assistant for the Festival of Learning 2026.</>,
+		content: <>✨ Served as General Chair Assistant for the Festival of Learning 2026.</>,
+	},
+	{
+		date: 'Feb 2026',
+		content: <>
+				🎉 Our poster{' '}
+				<a
+					href="/files/protoflow.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					Supporting Design Reasoning in AI-assisted Interface Prototyping for HCI Research
+				</a>{' '}
+				was accepted to CHI 2026.
+			</>,
 	},
 	{
 		date: 'Sep 2025',
-		content: <>✈️ Attending UIST 2025 in Busan, Korea.</>,
+		content: <>✈️ Attended UIST 2025 in Busan, Korea.</>,
 	},
 	{
 		date: 'Sep 2025',
 		content: <>👩‍💻 Started Master's program at KAIST School of Computing.</>,
 	},
 	{
-		date: 'Jun 2025',
+		date: 'Jul 2025',
 		content: <>🦊 Joined LaLaLab as a summer intern, working with the Mindful Math Team.</>,
 	},
 	{
 		date: 'Apr 2025',
-		content: <>✈️ Attending CHI 2025 in Yokohama, Japan.</>,
+		content: <>✈️ Attended CHI 2025 in Yokohama, Japan.</>,
 	},
 	{
 		date: 'Jan 2025',
@@ -46,7 +88,7 @@ const newsList = [
 			<>
 				🎉 Our paper{' '}
 				<a
-					href="https://arxiv.org/abs/1234.5678"
+					href="/files/teachtune.pdf"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

@@ -12,8 +12,8 @@ export const People = [
   { id: 'jinwook', name: 'Jinwook Seo', affiliation: 'SNU' },
   { id: 'kiroong', name: 'Kiroong Choe', affiliation: 'SNU' },
   { id: 'jieun', name: 'Jieun Han', affiliation: 'KAIST', url: 'https://zeunie.github.io/' },
-  { id: 'soyeon', name: 'So-yeon Ahn', affiliation: 'KAIST', url:'https://sites.google.com/view/soyeonahn/about'},
+  { id: 'soyeon', name: 'So-Yeon Ahn', affiliation: 'KAIST', url:'https://sites.google.com/view/soyeonahn/about'},
   { id: 'zixin', name: 'Zixin Chen', affiliation: 'HKUST', url: 'https://cinderd.github.io/' },
-  { id: 'daeun', name: 'DaEun Choi', affiliation: 'KAIST' },
+  { id: 'daeun', name: 'Daeun Choi', affiliation: 'KAIST' },
   { id: 'jenny', name: 'Jenny C. Yang', affiliation: 'KAIST' },
 ];

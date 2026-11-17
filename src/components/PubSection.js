@@ -1,26 +1,39 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { ConfPublications, WorkPublications } from '../data/publication';
 import { People } from '../data/people';
 import { FileText, Github, Globe, ExternalLink, Award } from 'lucide-react';
 import './PubSection.css';
 
+// Teaser image: pub.image if set, otherwise public/images/teaser-<id>.svg, then .png, then .jpg.
+const TEASER_EXTENSIONS = ['svg', 'png', 'jpg'];
+
 const PubCard = ({ pub }) => {
-  const [src, setSrc] = useState(`/images/teaser-${pub.id}.png`);
+  const [extIndex, setExtIndex] = useState(0);
+  const imgRef = useRef(null);
+  const candidates = [
+    ...(pub.image ? [`/images/${pub.image}`] : []),
+    ...TEASER_EXTENSIONS.map((ext) => `/images/teaser-${pub.id}.${ext}`),
+  ];
+  const src = candidates[extIndex] ?? '/images/teaser-default.png';
 
   const handleError = () => {
-    if (src === `/images/teaser-${pub.id}.png`) {
-      setSrc(`/images/teaser-${pub.id}.jpg`);
-    } else {
-      setSrc('/images/teaser-default.png');
-    }
+    setExtIndex((i) => Math.min(i + 1, candidates.length));
   };
+
+  // With prerendered HTML the image can fail before React attaches onError,
+  // so check once after mount (and after each fallback) for an already-broken image.
+  useEffect(() => {
+    const img = imgRef.current;
+    if (img && img.complete && img.naturalWidth === 0) handleError();
+  });
 
   return (
     <article className="pub-card">
       <div className="pub-image">
         <img
+          ref={imgRef}
           src={src}
-          alt="teaser image of publication"
+          alt={`Teaser for ${pub.title}`}
           onError={handleError}
         />
       </div>
@@ -82,6 +95,8 @@ const PubCard = ({ pub }) => {
                 }
               };
 
+              const displayLabels = { pdf: 'PDF', acm: 'ACM DL', springer: 'Springer', arxiv: 'arXiv', website: 'Website', paper: 'Paper' };
+
               return (
                 <a
                   key={label}
@@ -91,7 +106,7 @@ const PubCard = ({ pub }) => {
                   className="pub-link"
                 >
                   {getIcon(label)}
-                  {label}
+                  {displayLabels[label] ?? label}
                 </a>
               );
             })}

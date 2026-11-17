@@ -11,7 +11,19 @@ const ExperienceCard = ({ exp }) => {
       <div className="card-content">
         <div className="card-title">
           {exp.title} @{' '}
-          {exp.url ? (
+          {exp.organizations ? (
+            <>
+              {exp.organizations.map((org, idx) => (
+                <React.Fragment key={org.name}>
+                  {idx > 0 && ' and '}
+                  <a href={org.url} target="_blank" rel="noopener noreferrer" className="org-link">
+                    {org.name}
+                  </a>
+                </React.Fragment>
+              ))}
+              {exp.organizationSuffix}
+            </>
+          ) : exp.url ? (
             <a href={exp.url} target="_blank" rel="noopener noreferrer" className="org-link">
               {exp.organization}
             </a>
@@ -106,6 +118,7 @@ const EducationCard = ({ edu }) => {
         <div className="card-details">
             {edu.gpa && <span className="gpa-info">GPA: {edu.gpa}</span>}
         </div>
+        {edu.note && <div className="card-details">{edu.note}</div>}
       </div>
 
       <div className="card-sidebar">
