@@ -19,6 +19,7 @@ export const Experiences = [
     url: 'https://festival-of-learning-2026.info/',
     note: 'Jointly hosted by AIED, EDM, and L@S',
     location: 'Seoul, Korea',
+    period: '2026',
   },
   {
     id: 'lalalab',

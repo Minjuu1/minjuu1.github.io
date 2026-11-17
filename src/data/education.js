@@ -10,7 +10,7 @@ export const Educations = [
   {
     id: 1,
     school: 'Ewha Womans University',
-    degree: 'B.A. in Educational Technology and B.S. in Software',
+    degree: 'B.A. in Educational Technology and B.S. in Software (Double Major)',
     gpa: '4.13 / 4.3 (Summa Cum Laude)',
     note: 'Secondary School Regular Teacher Certificate (Grade II) in Education',
     location: 'Seoul, Korea',

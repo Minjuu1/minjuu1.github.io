@@ -32,7 +32,7 @@ const newsList = [
 	},
 	{
 		date: 'Jun 2026',
-		content: <>✈️ Attended Festival of Learning 2026 in Seoul, Korea, as an organizer.</>,
+		content: <>✈️ Attending Festival of Learning 2026 in Seoul, Korea, as an organizer.</>,
 	},
 	{
 		date: 'Apr 2026',
@@ -50,7 +50,7 @@ const newsList = [
 	},
 	{
 		date: 'Mar 2026',
-		content: <>✨ Served as General Chair Assistant for the Festival of Learning 2026.</>,
+		content: <>✨ Serving as General Chair Assistant for the Festival of Learning 2026.</>,
 	},
 	{
 		date: 'Feb 2026',
@@ -68,7 +68,7 @@ const newsList = [
 	},
 	{
 		date: 'Sep 2025',
-		content: <>✈️ Attended UIST 2025 in Busan, Korea.</>,
+		content: <>✈️ Attending UIST 2025 in Busan, Korea.</>,
 	},
 	{
 		date: 'Sep 2025',
@@ -80,7 +80,7 @@ const newsList = [
 	},
 	{
 		date: 'Apr 2025',
-		content: <>✈️ Attended CHI 2025 in Yokohama, Japan.</>,
+		content: <>✈️ Attending CHI 2025 in Yokohama, Japan.</>,
 	},
 	{
 		date: 'Jan 2025',
