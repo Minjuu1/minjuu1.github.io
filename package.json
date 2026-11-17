@@ -2,8 +2,9 @@
   "name": "git-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://minjuyoo.github.io",
+  "homepage": "https://minjuu1.github.io",
   "dependencies": {
+    "@fontsource-variable/source-sans-3": "^5.3.1",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
@@ -16,7 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "export REACT_APP_BUILD_DATE=\"$(date +'%b %Y')\" && react-scripts build && node prerender.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
