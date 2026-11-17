@@ -4,9 +4,52 @@
   background-color: white;
 }
 
-.main-container {
+/* Small screens: one column, in the order profile, about, news, publications, experience. */
+.layout {
   width: 80%;
   max-width: 56rem;
   margin: 0 auto;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar,
+.content {
+  display: contents;
+}
+
+.profile-section { order: 1; }
+.about-section { order: 2; }
+.news-section { order: 3; }
+.project-section { order: 4; }
+.pub-section { order: 5; }
+.exp-section { order: 6; }
+
+/* Wide screens: fixed left panel (3) and scrolling right panel (7). */
+@media (min-width: 1024px) {
+  .layout {
+    width: 90%;
+    max-width: 78rem;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    column-gap: 3.5rem;
+    align-items: start;
+  }
+
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    padding: 3rem 0 2rem;
+    box-sizing: border-box;
+  }
+
+  .content {
+    display: block;
+    min-width: 0;
+    padding-top: 1.5rem;
+  }
 }

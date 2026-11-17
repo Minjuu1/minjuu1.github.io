@@ -2,7 +2,7 @@
 .footer {
   background-color: #f9fafb;
   padding: 2rem 0;
-  margin-top: 4rem;
+  margin-top: 2.5rem;
 }
 
 .footer-container {
@@ -19,6 +19,13 @@
 @media (min-width: 640px) {
   .footer-container {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1024px) {
+  .footer-container {
+    width: 90%;
+    max-width: 78rem;
   }
 }
 

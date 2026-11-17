@@ -1,10 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* Site-wide design tokens. Change the accent here to recolor every link, chip, and badge. */
+:root {
+  --accent: #1f6b4f;
+  --accent-hover: #17523c;
+  --accent-tint: #e3f1eb;
+  --accent-tint-hover: #cfe6dc;
+}
+
+/* Base size for the whole page: every other size is in rem. */
+html {
+  font-size: 16px;
+}
 
 body {
   margin: 0;
-  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Source Sans 3 Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }

@@ -1,42 +1,44 @@
 /* Publication Section Styles */
 .pub-section {
-  padding: 2rem 0;
+  padding: 1.25rem 0;
 }
 
 .pub-section .section-space {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .pub-section-title {
-  font-size: 1.5rem;
-  font-weight: 300;
+  font-size: 1.375rem;
+  font-weight: 600;
   color: #111827;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   gap: 0.75rem;
+  margin-top: 0;
 }
 
 .pub-subsection-title {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: #1f2937;
-  margin-bottom: 1rem;
+  font-size: 1.0625rem;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 0.25rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
+  margin-top: 0;
 }
 
 .pub-grid {
   display: grid;
-  gap: 1rem;
+  gap: 0;
 }
 
 .pub-card {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  padding: 1rem 0;
+  padding: 0.875rem 0;
   border-bottom: 1px solid #e5e7eb;
   flex-direction: column;
 }
@@ -86,9 +88,9 @@
 }
 
 .pub-authors {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: #4b5563;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
 }
 
 .author-link {
@@ -106,7 +108,7 @@
 }
 
 .author-link.author-other:hover {
-  color: #2563eb;
+  color: var(--accent);
 }
 
 .author-name {
@@ -114,9 +116,9 @@
 }
 
 .pub-venue {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: #6b7280;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   font-weight: 500;
 }
 
@@ -129,14 +131,14 @@
   font-size: 0.75rem;
   font-weight: 600;
   color: #ffffff;
-  background-color: #b177c8;
+  background-color: var(--accent);
   border-radius: 9999px;
 }
 
 .pub-note {
-  font-size: 0.875rem;
+  font-size: 0.9375rem;
   color: #6b7280;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   white-space: pre-line;
 }
 
@@ -152,15 +154,15 @@
   align-items: center;
   gap: 0.35rem;
   padding: 0.25rem 0.625rem;
-  font-size: 0.75rem;
+  font-size: 0.8125rem;
   font-weight: 500;
-  color: #0369a1;
-  background-color: #d5edfd;
+  color: var(--accent);
+  background-color: var(--accent-tint);
   border-radius: 0.25rem;
   text-decoration: none;
   transition: background-color 0.2s, color 0.2s;
 }
 
 .pub-link:hover {
-  background-color: #bae6fd;
+  background-color: var(--accent-tint-hover);
 }

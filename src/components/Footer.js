@@ -1,5 +1,10 @@
 import './Footer.css';
 
+// Set at build time by the build script in package.json.
+const lastUpdated =
+  process.env.REACT_APP_BUILD_DATE ||
+  new Date().toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -8,7 +13,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} Minju Yoo.
         </div>
         <div className="footer-updated">
-          Last updated: Sep 2025
+          Last updated: {lastUpdated}
         </div>
       </div>
     </footer>
